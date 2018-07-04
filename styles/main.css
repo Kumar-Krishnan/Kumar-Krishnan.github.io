@@ -1,0 +1,21 @@
+nav{
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    justify-content: space-around;
+}
+
+main{
+    justify-content: center;
+    text-align: center;
+}
+.projectsContainer{
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    justify-content: space-around;
+}
+
+.projectImgBox{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
