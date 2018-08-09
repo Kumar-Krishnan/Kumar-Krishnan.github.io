@@ -1,8 +1,9 @@
 
 nav{
     display: grid;
-    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-columns: 30vw 30vw 30vw;
     justify-content: space-around;
+    text-align: center;
 }
 
 main{
