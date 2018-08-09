@@ -4,6 +4,14 @@ nav{
     grid-template-columns: 30vw 30vw 30vw;
     justify-content: space-around;
     text-align: center;
+    background-color: rgb(185, 227, 255);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.navLink{
+    box-shadow: 1px 1px 1px 1px;
 }
 
 main{
