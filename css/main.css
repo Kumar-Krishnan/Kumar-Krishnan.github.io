@@ -38,6 +38,7 @@ main{
 .projectImgBox{
     width: 200px;
     height: 200px;
+    background-color: rgba(33, 150, 243, 0.19);
     box-shadow: 1px 1px 1px 1px;
 }
 
