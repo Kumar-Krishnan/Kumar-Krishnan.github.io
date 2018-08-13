@@ -14,15 +14,16 @@ nav{
     box-shadow: 1px 1px 1px 1px;
 }
 
+#fullStackTag{
+    font-size: 10px;
+}
+
 main{
     justify-content: center;
     text-align: center;
     padding-bottom: 70px;
 }
 .projectsWrapper{
-    width: 50vw;
-
-    display:inline-block;
 }
 .technologiesUsed{
     width:20vw;
