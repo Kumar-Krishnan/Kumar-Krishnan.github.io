@@ -77,9 +77,19 @@
 }
 
 /* Small Devices Potrait */
-@media (max-width : 767px){
+@media (max-width : 992px){
+	.projectImgBox{
+		margin: 0 auto;
+	}
+}
 
-	
+@media (max-width: 448px) {
+	.notPhoneImg{
+		max-width: 85%;
+	}
+	.projectImg:hover{
+		transform: scale(1.1)
+	}
 }
 
 /* Extra Small Devices, Phones */ 
