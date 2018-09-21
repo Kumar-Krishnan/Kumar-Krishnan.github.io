@@ -6,6 +6,9 @@
 	.dropdown i{
 		display: none;
 	}
+	.grey-overlay{
+		height: 350px;
+	}
 }
 
 
@@ -15,6 +18,14 @@
 		margin-right: 0px;
 		font-size: 16px;
 		line-height: 16px;
+	}
+
+	.grey-overlay{
+		height: 350px;
+	}
+
+	.carouselContainer{
+		width:100%;
 	}
 
 	/* features ====================*/
@@ -38,6 +49,12 @@
 	font-size: 16px;
 	line-height: 16px;
 }
+
+#frontPageProfilePic{
+	max-height:200px;
+	margin-top: 20px;
+}	
+
 
 /*process ================================*/
 .process-wrap{
@@ -98,9 +115,8 @@
 /* background=================================*/
 
 #section-intro {
-   height: 450px;
+   height: 500px;
 }
-
 
 .intro-caption {
     padding: 125px 15px;
@@ -242,6 +258,8 @@
 #testimonial-carousel .carousel-indicators {
     top: 90%;
 }
+
+
 
 
 /* contact ==========================================*/
