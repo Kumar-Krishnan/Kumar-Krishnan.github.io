@@ -336,6 +336,7 @@ h6 {
     right: 0px;
     bottom: 0px;
     background: rgba(32, 63, 89, 0.94);
+    height: 350px;
 }
 
 #frontPageProfilePic{
@@ -725,13 +726,42 @@ h6 {
 
 /* carousel section start */
 
-#myCarousel{
+/* #myCarousel{
     margin-bottom:300px;
-}
+} */
 
+.carousel-caption{
+    padding-bottom: 0px;
+    padding-top:5px;
+}
 .item{
-    height:200px;
+    height:200px;  
+    border-radius:3px;
+    margin-top:-90px;
 }
 
+.carousel{
+    background: rgba(0, 0, 0, 0.1)
 
+}
+
+.item *{
+    text-align: left;
+}
+
+.left a{
+    background: white;
+}
+
+.carousel-control.right{
+    background: transparent;
+}
+
+.carousel-control.left{
+    background: transparent;
+}
+
+.carouselHeader{
+    text-align: center;
+}
 /* carousel section end */
