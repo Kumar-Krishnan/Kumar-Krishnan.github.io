@@ -293,7 +293,7 @@ h6 {
 /*==================== section heading ========================*/
 .section-heading{
     margin-bottom: 70px;
-    padding-top: 80px;
+    margin-top: -90px;
 }
 
 .section-heading hr{
@@ -771,3 +771,12 @@ h6 {
     background: rgba(0, 188, 212, 0.11);
 }
 /* carousel section end */
+
+/* strengths section begin */
+
+.strengthsContainer{
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    justify-content: space-around;
+}
+/* strengths section end */
