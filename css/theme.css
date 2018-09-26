@@ -776,10 +776,24 @@ h6 {
     grid-template-columns: 30vw 30vw;
     justify-content: space-around;
 }
-.individualStrength{
-   
+.individualStrength h5{
+   background: #d1d1d182;
+   padding-top: 10px;
+   text-align: center;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+   margin-left: -20px;
+   margin-right: -20px;
+   box-shadow: 1px 1px;
+
 }
 
+.individualStrength {
+    background: #acaeb014;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .strengthsHeader{
     text-align:center;
     margin-top: 80px;
@@ -793,10 +807,16 @@ h6 {
     text-align: center;
     width: 600px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 #strengthsList{
     font-weight:900;
 }
 
+.cliftonButton{
+    padding-top: 25px;
+    padding-bottom:25px;
+    margin-bottom: 30px;
+}
 /* strengths section end */
