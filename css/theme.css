@@ -293,7 +293,7 @@ h6 {
 /*==================== section heading ========================*/
 .section-heading{
     margin-bottom: 70px;
-    margin-top: -90px;
+    margin-top: 20px;
 }
 
 .section-heading hr{
@@ -301,6 +301,9 @@ h6 {
     border-color: #ddd;
 }
 
+.brandStatement{
+    color:black !important;
+}
 
 .main-title{
     font-size: 25px;
@@ -454,7 +457,7 @@ h6 {
     background-position: 50% 0px;
     padding: 0px;
     position: relative;
-    max-height: 600px;
+    max-height: 700px;
     overflow: hidden;
 }
 
@@ -626,7 +629,6 @@ h6 {
 
 .projectBoxes:hover{
 	color: black;
-	border-color: rgba(26, 25, 23, 0.529);
 }
 .projectName{
     text-align: center;
@@ -635,8 +637,6 @@ h6 {
 
 .projectDescription{
     color: black;
-    border-right: black 3px solid;
-    border-left: 3px solid black;
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -655,7 +655,6 @@ h6 {
 }
 
 .projectBoxes{
-    border: 6px outset rgba(26, 25, 23, 0.329);
     margin-bottom: 20px;
     padding-top: 30px;
 }
@@ -692,8 +691,6 @@ h6 {
 .notPhoneProjectDescription{
     border-left: 0px;
     border-right: 0px;
-    border-top: black 3px solid;
-    border-bottom: 3px solid black;
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
@@ -779,4 +776,27 @@ h6 {
     grid-template-columns: 30vw 30vw;
     justify-content: space-around;
 }
+.individualStrength{
+   
+}
+
+.strengthsHeader{
+    text-align:center;
+    margin-top: 80px;
+}
+
+#strengthsHeaderUnderline{
+    width:200px;
+}
+
+.strengthsSummary{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#strengthsList{
+    font-weight:900;
+}
+
 /* strengths section end */
